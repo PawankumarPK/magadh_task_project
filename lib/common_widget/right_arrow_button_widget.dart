@@ -36,7 +36,7 @@ class RightArrowButtonWidget extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
 
-            ///------------------ Navigate Mechanic text ---------------------
+            ///------------------ button title text ---------------------
             Padding(
               padding:
               EdgeInsets.only(left: SizeConfig.defaultSize! * Dimens.size30),

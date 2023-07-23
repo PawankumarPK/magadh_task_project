@@ -1,4 +1,4 @@
 class ConstantAssets{
 
-  static var mechanicIcon = "assets/images/mechanic.png";
+  static var userMarkerIcon = "assets/images/user_marker.png";
 }

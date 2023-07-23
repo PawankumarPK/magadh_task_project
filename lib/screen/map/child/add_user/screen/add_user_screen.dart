@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:magadh_tech_project/common_widget/appbar_widget.dart';
-import 'package:magadh_tech_project/common_widget/edit_profile_widget.dart';
+import 'package:magadh_tech_project/common_widget/edit_textfield_widget.dart';
 import 'package:magadh_tech_project/common_widget/plain_button.dart';
 import 'package:magadh_tech_project/screen/map/child/add_user/child/new_user_map_scaffold.dart';
 import 'package:magadh_tech_project/screen/map/child/add_user/controller/add_user_controller.dart';

@@ -99,7 +99,7 @@ class MapController extends GetxController {
           markerId.add(userMarkerId);
           for (int i = 0; i < allUserList.length; i++) {
 
-            markerImage = await getBytesFromAssets(ConstantAssets.mechanicIcon, 100);
+            markerImage = await getBytesFromAssets(ConstantAssets.userMarkerIcon, 100);
             items = allUserList[i];
 
             filteredUserList.add(markerId[i]);
