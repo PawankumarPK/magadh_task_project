@@ -25,7 +25,6 @@ class PatchRoutes {
     request.fields.addAll({"location":location,"name": name,});
     request.headers.addAll(headers);
     CustomObject.responseBody = await request.send();
-    print("=====<><><><IMGG  "+ CustomObject.responseBody.statusCode.toString());
     CustomObject.responseStatus = CustomObject.responseBody.statusCode;
   }
 

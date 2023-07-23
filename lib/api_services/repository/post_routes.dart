@@ -44,13 +44,10 @@ class PostRoutes {
       }
     });
 
-    print("====>>>> Body  "+ body);
-
     CustomObject.responseBody = await http.post(Uri.parse(url), headers: headers = {
       'Content-Type': 'application/json',
       "Authorization": '${CustomObject.token}',
     }, body: body);
-    print("====<><> Stautius "+ CustomObject.responseBody.statusCode.toString());
     CustomObject.responseStatus = CustomObject.responseBody.statusCode;
   }
 

@@ -229,7 +229,6 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
         editProfileController.file = File(imageFile!.path);
         CustomObject.imgPath = File(imageFile.path);
         prefs.setString("profileImgPath", editProfileController.file!.path);
-        print("=====>>>Set Shared  "+ editProfileController.file!.path);
       });
     }
   }

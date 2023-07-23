@@ -21,7 +21,6 @@ Future<void> main() async {
   var prefs = await SharedPreferences.getInstance();
   prefToken = prefs.getString("token");
   CustomObject.token = prefToken??"";
-  print("===>> TOKEN  "+ CustomObject.token);
 
   runApp(const MyApp());
 

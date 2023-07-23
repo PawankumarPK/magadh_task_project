@@ -121,21 +121,7 @@ class _NewUserSearchSectionState extends State<NewUserSearchSection> {
     displayPrediction(p!);
   }
 
-  void onError(PlacesAutocompleteResponse response) {
-    print("--====>>>> ERRROR  " + response.errorMessage!);
-    /*ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-      elevation: 0,
-      behavior: SnackBarBehavior.floating,
-      backgroundColor: Colors.transparent,
-      */ /*content: AwesomeSnackbarContent(
-        title: 'Message',
-        message: response.errorMessage!,
-        contentType: ContentType.failure,
-      ),*/ /*
-    ));*/
-
-    // homeScaffoldKey.currentState!.showSnackBar(SnackBar(content: Text(response.errorMessage!)));
-  }
+  void onError(PlacesAutocompleteResponse response) {}
 
   ///
   Future<void> displayPrediction(Prediction p) async {

@@ -29,8 +29,6 @@ class SignInController extends GetxController {
           var message = result.message;
           otp.value = result.otp;
 
-          print("=====>>> SIGN in OTP  $otp");
-
           flutterToast.toast(message);
 
           Get.off(const OtpVerificationScaffold(), arguments: [

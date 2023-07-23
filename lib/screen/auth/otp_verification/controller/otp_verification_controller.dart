@@ -38,7 +38,6 @@ class OtpVerificationController extends GetxController {
   void onInit() {
     phoneNo = argumentData[0]['phoneNo'];
     otp.value = argumentData[1]['otp'].toString();
-    print("====>>>> OTP  "+ otp.value);
     startTimer();
     super.onInit();
   }
@@ -70,11 +69,7 @@ class OtpVerificationController extends GetxController {
           SharedPreferences prefs = await SharedPreferences.getInstance();
           prefs.setString("token", CustomObject.token);
 
-          print("=====>>>> GET TOKEN OTP  ${CustomObject.token}");
-
-
           Get.to(()=> const MapScaffold());
-          print("======>>>>> TOKEN "+ token);
           break;
         case 401:
           flutterToast.snackBar(ConstantStrings.otpNotMatched, ConstantStrings.tryAgain);

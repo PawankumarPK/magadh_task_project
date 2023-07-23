@@ -20,7 +20,6 @@ class FirebaseService{
 
     Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
       await Firebase.initializeApp();
-      print('A bg message just showed up :  ${message.messageId}');
     }
 
     FirebaseMessaging.onMessage.listen((RemoteMessage message) {

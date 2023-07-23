@@ -168,9 +168,7 @@ class _SearchSectionState extends State<SearchSection> {
     displayPrediction(p!);
   }
 
-  void onError(PlacesAutocompleteResponse response) {
-    print("--====>>>> ERRROR  " + response.errorMessage!);
-  }
+  void onError(PlacesAutocompleteResponse response) {}
 
   /// -------- search functionality ---------------
   Future<void> displayPrediction(Prediction p) async {
