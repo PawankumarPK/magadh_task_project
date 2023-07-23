@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "228779018023",
+    "project_id": "magadhtech-f997d",
+    "storage_bucket": "magadhtech-f997d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:228779018023:android:e64929491d4c61f774cb02",
+        "android_client_info": {
+          "package_name": "com.example.magadh_tech_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "228779018023-07dgs4ccpfohqje2ao8fqn30b4v916d4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYxJH--LnJeoCbYiaq2OHeiesWddUkR6o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "228779018023-07dgs4ccpfohqje2ao8fqn30b4v916d4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
